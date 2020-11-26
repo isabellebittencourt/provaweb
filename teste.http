@@ -1,0 +1,14 @@
+###
+GET http://localhost:1234/produto/listar
+
+###
+
+POST http://localhost:1234/produto/cadastrar/
+
+
+Content-Type: application/json
+{
+    "nome": "lalala",
+    "codigoBarras": "LALALA",
+    "preco": 4300
+}
